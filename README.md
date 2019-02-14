@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-### Works for Date, DateTime, Time
+### Pass in 2 Date(String) & get a breakup of dates in years, months, weeks & days
+
+```ruby
+DateBreakup::Range.between('01/01/2019', '31/12/2019').get_accurate
+=> {
+    :years=>[
+      {:year=>2019, :start_date=>Sat, 01 Jan 2019, :end_date=>Sat, 31 Dec 2019}
+    ]
+  }
+```
+
+### More Further Apart Dates
 
 ```ruby
 DateBreakup::Range.between('10/10/2010', '12/12/2012').get_accurate
