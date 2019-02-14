@@ -68,7 +68,7 @@ module DateBreakup
       # DAY
       if move_to_date
         day_hash = { day: date.yday, month_day: date.mday, month: date.month, year: date.year, start_date: date, end_date: date }
-        day_array << day_has
+        day_array << day_hash
         new_date = date + 1.day
       end
 
