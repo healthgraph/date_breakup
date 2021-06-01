@@ -6,12 +6,12 @@ require "date_breakup/version"
 Gem::Specification.new do |spec|
   spec.name          = "date_breakup"
   spec.version       = DateBreakup::VERSION
-  spec.authors       = ["Huzaifa Saifuddin"]
-  spec.email         = ["Huzaifa@Huzaifas-MacBook-Pro.local"]
+  spec.authors       = ["Mohit Maniar"]
+  spec.email         = ["85148901+mohit-maniar@users.noreply.github.com"]
 
   spec.summary       = "Feed in 2 dates and get a breakup of dates grouped in years, months, weeks & days"
   spec.description   = "Feed in 2 dates and get a breakup of dates grouped in years, months, weeks & days"
-  spec.homepage      = "https://github.com/HuzaifaSaifuddin/date_breakup"
+  spec.homepage      = "https://github.com/healthgraph/date_breakup"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
