@@ -6,7 +6,7 @@ require "date_breakup/version"
 Gem::Specification.new do |spec|
   spec.name          = "date_breakup"
   spec.version       = DateBreakup::VERSION
-  spec.authors       = ["Mohit Maniar"]
+  spec.authors       = ["Mohit Maniar", "Anoop Bajpai"]
   spec.email         = ["85148901+mohit-maniar@users.noreply.github.com"]
 
   spec.summary       = "Feed in 2 dates and get a breakup of dates grouped in years, months, weeks & days"
