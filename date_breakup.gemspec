@@ -37,5 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "pry", "~> 1.0"
 
-  spec.add_runtime_dependency 'date', '=> 2.0'
+  spec.add_runtime_dependency 'date', '~> 3.0'
 end
