@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'date_breakup'
+gem 'hg_date_breakup'
 ```
 
 And then execute:
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install date_breakup
+    $ gem install hg_date_breakup
 
 ## Usage
 
