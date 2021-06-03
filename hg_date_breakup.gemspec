@@ -5,7 +5,7 @@ require "hg_date_breakup/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "hg_date_breakup"
-  spec.version       = DateBreakup::VERSION
+  spec.version       = HgDateBreakup::VERSION
   spec.authors       = ["Mohit Maniar", "Anoop Bajpai"]
   spec.email         = ["85148901+mohit-maniar@users.noreply.github.com"]
 

@@ -22,7 +22,7 @@ Or install it yourself as:
 
 #### FOR YEARS (BREAKUP in YEARS, MONTHS, WEEKS, DAYS)
 ```ruby
-DateBreakup::Range.between('01/01/2019', '31/12/2019').get_years
+HgDateBreakup::Range.between('01/01/2019', '31/12/2019').get_years
 => {
     :years=>[
       {:year=>2019, :start_date=>Sat, 01 Jan 2019, :end_date=>Sat, 31 Dec 2019}
@@ -35,7 +35,7 @@ DateBreakup::Range.between('01/01/2019', '31/12/2019').get_years
 
 #### FOR MONTHS (BREAKUP in MONTHS, WEEKS, DAYS)
 ```ruby
-DateBreakup::Range.between('01/01/2019', '31/12/2019').get_months
+HgDateBreakup::Range.between('01/01/2019', '31/12/2019').get_months
 => {
     :years=>[],
     :months=>[
@@ -58,7 +58,7 @@ DateBreakup::Range.between('01/01/2019', '31/12/2019').get_months
 ```
 #### FOR WEEKS (BREAKUP in WEEKS, DAYS)
 ```ruby
-DateBreakup::Range.between('01/01/2019', '31/12/2019').get_weeks
+HgDateBreakup::Range.between('01/01/2019', '31/12/2019').get_weeks
 => {
     :years=>[],
     :months=>[],
@@ -98,7 +98,7 @@ DateBreakup::Range.between('01/01/2019', '31/12/2019').get_weeks
 ```
 #### FOR DAYS (BREAKUP in DAYS)
 ```ruby
-DateBreakup::Range.between('01/01/2019', '31/12/2019').get_days
+HgDateBreakup::Range.between('01/01/2019', '31/12/2019').get_days
 => {
     :years=>[],
     :months=>[],
@@ -120,7 +120,7 @@ DateBreakup::Range.between('01/01/2019', '31/12/2019').get_days
 ### More Further Apart Dates
 
 ```ruby
-DateBreakup::Range.between('10/10/2010', '12/12/2012').get_years
+HgDateBreakup::Range.between('10/10/2010', '12/12/2012').get_years
 => {
     :years=>[
       {:year=>2011, :start_date=>Sat, 01 Jan 2011, :end_date=>Sat, 31 Dec 2011}
@@ -163,7 +163,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/date_breakup. -->
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hg_date_breakup. -->
 
 ## License
 
