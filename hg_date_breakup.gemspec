@@ -1,7 +1,7 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "date_breakup/version"
+require "hg_date_breakup/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "hg_date_breakup"

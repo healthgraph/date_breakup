@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "date_breakup"
+require "hg_date_breakup"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

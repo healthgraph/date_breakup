@@ -1,6 +1,6 @@
-RSpec.describe DateBreakup do
+RSpec.describe HgDateBreakup do
   it "has a version number" do
-    expect(DateBreakup::VERSION).not_to be nil
+    expect(HgDateBreakup::VERSION).not_to be nil
   end
 
   it "does something useful" do

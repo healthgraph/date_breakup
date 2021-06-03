@@ -1,7 +1,7 @@
-require "date_breakup/version"
+require "hg_date_breakup/version"
 require "time_difference"
 
-module DateBreakup
+module HgDateBreakup
   class Range
     private_class_method :new
 
